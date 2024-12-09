@@ -1,0 +1,25 @@
+.row{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col{
+  align-content: center;
+  flex-basis: 31%;
+  background-color: #ec8686;
+ border-radius: 50px;
+ margin-bottom: 50%;
+padding: 20px 12px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+    margin: 10px 0px;
+}
+
+.course-col:hover{
+  box-shadow: 0  0  20px 0px rgb(0,0,0.2);
+}
